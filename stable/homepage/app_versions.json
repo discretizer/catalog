@@ -6,11 +6,11 @@
         "location": "/test/catalog/stable/homepage/6.3.14",
         "last_update": "2024-02-04 21:04:46",
         "required_features": [
-            "definitions/timezone",
-            "definitions/certificate",
             "definitions/gpuConfiguration",
-            "normalize/interfaceConfiguration",
-            "definitions/interface"
+            "definitions/interface",
+            "definitions/certificate",
+            "definitions/timezone",
+            "normalize/interfaceConfiguration"
         ],
         "human_version": "0.8.7_6.3.14",
         "version": "6.3.14",
