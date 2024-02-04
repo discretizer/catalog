@@ -8,9 +8,9 @@
         "required_features": [
             "definitions/gpuConfiguration",
             "definitions/interface",
-            "definitions/certificate",
             "definitions/timezone",
-            "normalize/interfaceConfiguration"
+            "normalize/interfaceConfiguration",
+            "definitions/certificate"
         ],
         "human_version": "0.8.7_6.3.14",
         "version": "6.3.14",
