@@ -4,13 +4,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/test/catalog/stable/homepage/6.3.14",
-        "last_update": "2024-02-04 21:04:46",
+        "last_update": "2024-02-04 23:56:41",
         "required_features": [
             "definitions/gpuConfiguration",
             "definitions/interface",
-            "definitions/timezone",
+            "definitions/certificate",
             "normalize/interfaceConfiguration",
-            "definitions/certificate"
+            "definitions/timezone"
         ],
         "human_version": "0.8.7_6.3.14",
         "version": "6.3.14",
