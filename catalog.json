@@ -1,5 +1,39 @@
 {
     "charts": {},
     "test": {},
-    "stable": {}
+    "stable": {
+        "homepage": {
+            "app_readme": "<p>A highly customizable homepage</p>\n<p>This app is customized by <a href=\"https://github.com/discretizer\">discretizer</a> from the original [truecharts]((https://truecharts.org) app\nPlease consider supporting truecharts by making a <a href=\"https://truecharts.org/sponsor\">donation</a>.</p>",
+            "categories": [
+                "dashboard"
+            ],
+            "description": "A highly customizable homepage",
+            "healthy": true,
+            "healthy_error": null,
+            "home": "https://truecharts.org/charts/stable/homepage",
+            "location": "/test/catalog/stable/homepage",
+            "latest_version": "6.3.14",
+            "latest_app_version": "0.8.7",
+            "latest_human_version": "0.8.7_6.3.14",
+            "last_update": "2024-02-04 21:04:46",
+            "name": "homepage",
+            "recommended": false,
+            "title": "Homepage",
+            "maintainers": [
+                {
+                    "name": "TrueCharts",
+                    "email": "info@truecharts.org",
+                    "url": "https://truecharts.org"
+                }
+            ],
+            "tags": [],
+            "screenshots": [],
+            "sources": [
+                "https://github.com/benphelps/homepage",
+                "https://github.com/truecharts/charts/tree/master/charts/stable/homepage",
+                "https://ghcr.io/gethomepage/homepage"
+            ],
+            "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/homepage.png"
+        }
+    }
 }
