@@ -8,6 +8,8 @@ on:
       - 'staging'
   workflow_dispatch:
 
+permissions: 
+  contents: write
 jobs:
   test-and-sync:
     name: Test and Sync SCALE Catalog
