@@ -1,6 +1,6 @@
 image:
   repository: ghcr.io/discretizer/homepage
-  tag: v0.8.7@sha256:be48bfebfb172b5cf0fd14d95720acd67bfa2f0f78ad349745dd1fc6190f6218
+  tag: v0.8.7@sha256:8e6c9ac0f4a4704a045c3afe468db680ef5950f65414c880f440690ce5131901
   pullPolicy: IfNotPresent
 
 workload:
