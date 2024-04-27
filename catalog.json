@@ -12,10 +12,10 @@
             "healthy_error": null,
             "home": "https://truecharts.org/charts/stable/homepage",
             "location": "/home/runner/work/catalog/catalog/stable/homepage",
-            "latest_version": "7.8.16",
+            "latest_version": "7.8.17",
             "latest_app_version": "0.8.12",
-            "latest_human_version": "0.8.12_7.8.16",
-            "last_update": "2024-04-22 22:00:36",
+            "latest_human_version": "0.8.12_7.8.17",
+            "last_update": "2024-04-27 01:14:04",
             "name": "homepage",
             "recommended": false,
             "title": "Homepage",
@@ -34,6 +34,41 @@
                 "https://ghcr.io/gethomepage/homepage"
             ],
             "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/homepage.webp"
+        },
+        "ollama": {
+            "app_readme": "<p>Get up and running with large language models locally.</p>\n<p>This app is customized by <a href=\"https://github.com/discretizer\">discretizer</a> from the original [truecharts]((https://truecharts.org) app\nPlease consider supporting truecharts by making a <a href=\"https://truecharts.org/sponsor\">donation</a>.</p>",
+            "categories": [
+                "AI"
+            ],
+            "description": "Get up and running with large language models locally.",
+            "healthy": true,
+            "healthy_error": null,
+            "home": "https://truecharts.org/charts/stable/ollama",
+            "location": "/home/runner/work/catalog/catalog/stable/ollama",
+            "latest_version": "5.4.28",
+            "latest_app_version": "0.1.32",
+            "latest_human_version": "0.1.32_5.4.28",
+            "last_update": "2024-04-27 01:14:04",
+            "name": "ollama",
+            "recommended": false,
+            "title": "Ollama",
+            "maintainers": [
+                {
+                    "name": "TrueCharts",
+                    "email": "info@truecharts.org",
+                    "url": "https://truecharts.org"
+                }
+            ],
+            "tags": [],
+            "screenshots": [],
+            "sources": [
+                "https://github.com/ollama/ollama",
+                "https://github.com/open-webui/open-webui",
+                "https://github.com/truecharts/charts/tree/master/charts/stable/ollama",
+                "https://hub.docker.com/r/ollama/ollama",
+                "https://ghcr.io/open-webui/open-webui"
+            ],
+            "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/ollama.webp"
         }
     }
 }

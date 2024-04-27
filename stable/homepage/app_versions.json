@@ -1,18 +1,18 @@
 {
-    "7.8.16": {
+    "7.8.17": {
         "healthy": true,
         "supported": true,
         "healthy_error": null,
-        "location": "/home/runner/work/catalog/catalog/stable/homepage/7.8.16",
-        "last_update": "2024-04-22 22:00:36",
+        "location": "/home/runner/work/catalog/catalog/stable/homepage/7.8.17",
+        "last_update": "2024-04-27 01:14:04",
         "required_features": [
-            "definitions/timezone",
-            "definitions/interface",
             "normalize/interfaceConfiguration",
-            "definitions/certificate"
+            "definitions/interface",
+            "definitions/certificate",
+            "definitions/timezone"
         ],
-        "human_version": "0.8.12_7.8.16",
-        "version": "7.8.16",
+        "human_version": "0.8.12_7.8.17",
+        "version": "7.8.17",
         "chart_metadata": {
             "annotations": {
                 "max_scale_version": "24.04.0",
@@ -28,7 +28,7 @@
             "dependencies": [
                 {
                     "name": "common",
-                    "version": "20.3.11",
+                    "version": "20.3.12",
                     "repository": "oci://tccr.io/truecharts",
                     "condition": "",
                     "alias": "",
@@ -58,7 +58,7 @@
                 "https://ghcr.io/gethomepage/homepage"
             ],
             "type": "application",
-            "version": "7.8.16"
+            "version": "7.8.17"
         },
         "app_metadata": null,
         "schema": {
@@ -69,7 +69,7 @@
                 },
                 {
                     "name": "General",
-                    "description": "For TrueNAS SCALE We've grouped a number of settings here, that all effact how apps run in general.\n\nCheckout the following documentation for more information:\n  - https://truecharts.org/common/global/\n  - https://truecharts.org/common/#tz\n  - https://truecharts.org/common/podoptions/\n  - Image Pull Secrets \n"
+                    "description": "For TrueNAS SCALE We've grouped a number of settings here, that all effact how apps run in general.\n\nCheckout the following documentation for more information:\n  - https://truecharts.org/common/global/\n  - https://truecharts.org/common/#tz\n  - https://truecharts.org/common/podoptions/\n  - Image Pull Secrets\n"
                 },
                 {
                     "name": "Workload",
@@ -81,7 +81,7 @@
                 },
                 {
                     "name": "Services",
-                    "description": "Service and Networking options for any applications are contained here. \nSome applications may have complicated networking setups with multiple options or some may have no options here at all. \n\nOptions here include the service and port configurations for the application, and more may be enabled or changed under the Advanced Settings and Show Expert Config boxes.\n\nCheckout the following documentation for more information:\n- https://truecharts.org/common/service/\n"
+                    "description": "Service and Networking options for any applications are contained here.\nSome applications may have complicated networking setups with multiple options or some may have no options here at all.\n\nOptions here include the service and port configurations for the application, and more may be enabled or changed under the Advanced Settings and Show Expert Config boxes.\n\nCheckout the following documentation for more information:\n- https://truecharts.org/common/service/\n"
                 },
                 {
                     "name": "Networking",
@@ -89,15 +89,15 @@
                 },
                 {
                     "name": "Persistence",
-                    "description": "Many applications will have certain options for storage to be configurable by the user, the main two being PVC and hostpath but may include other types. \nThis storage is called Persistence since it is not deleted upon restart or upgrade of an application.\n\nCheckout the following documentation for more information:\n- https://truecharts.org/common/persistence/\n- https://truecharts.org/scale/guides/nfs-share/\n- https://truecharts.org/general/faq/#why-pvc-is-recommended-over-hostpath\n"
+                    "description": "Many applications will have certain options for storage to be configurable by the user, the main two being PVC and hostpath but may include other types.\nThis storage is called Persistence since it is not deleted upon restart or upgrade of an application.\n\nCheckout the following documentation for more information:\n- https://truecharts.org/common/persistence/\n- https://truecharts.org/scale/guides/nfs-share/\n- https://truecharts.org/general/faq/#why-pvc-is-recommended-over-hostpath\n"
                 },
                 {
                     "name": "Ingress",
-                    "description": "Ingress (more commonly known as Reverse Proxy) settings can be configured here. This is how Kubernetes connects your Applications in containers to FQDNs (fully qualified domain names). \nIf you choose to enable this you must have a \"Ingress Provider\" aka \"Reverse Proxy\" installed (We highly advice Traefik: https://truecharts.org/charts/premium/traefik/)\nIt also requiresa DNS service to actually resolve the DNS name of the FQDN specified.\n\nCheckout the following documentation for more information:\n- https://truecharts.org/common/ingress/\n"
+                    "description": "Ingress (more commonly known as Reverse Proxy) settings can be configured here. This is how Kubernetes connects your Applications in containers to FQDNs (fully qualified domain names).\nIf you choose to enable this you must have a \"Ingress Provider\" aka \"Reverse Proxy\" installed (We highly advice Traefik: https://truecharts.org/charts/premium/traefik/)\nIt also requiresa DNS service to actually resolve the DNS name of the FQDN specified.\n\nCheckout the following documentation for more information:\n- https://truecharts.org/common/ingress/\n"
                 },
                 {
                     "name": "SecurityContext",
-                    "description": "The security settings for each application and/or permissions that each application may have for the files/directories created. \nEach application will come with predefined permissions but users may want to change certain setting depending on their usage or capabilities. \n\nUnless necessary users are advised to keep this section mostly to defaults.\n\nCheckout the following documentation for more information:\n- https://truecharts.org/common/securitycontext/\n"
+                    "description": "The security settings for each application and/or permissions that each application may have for the files/directories created.\nEach application will come with predefined permissions but users may want to change certain setting depending on their usage or capabilities.\n\nUnless necessary users are advised to keep this section mostly to defaults.\n\nCheckout the following documentation for more information:\n- https://truecharts.org/common/securitycontext/\n"
                 },
                 {
                     "name": "Resources",
@@ -121,7 +121,7 @@
                 },
                 {
                     "name": "Addons",
-                    "description": "Addons that are supplied by the TrueCharts team to add additional capabilities for users to use on top of the application\u2019s defaults. \nThings included here are VPN addons, Codeserver for editing files inside the application\u2019s container, Netshoot for network troubelshooting, etc. \n\nGenerally not required for use but may be necessary or usefull at times for specific applications.\n\nCheckout the following documentation for more information:\n- https://truecharts.org/common/addons/\n- https://truecharts.org/scale/guides/vpn-setup/\n"
+                    "description": "Addons that are supplied by the TrueCharts team to add additional capabilities for users to use on top of the application\u2019s defaults.\nThings included here are VPN addons, Codeserver for editing files inside the application\u2019s container, Netshoot for network troubelshooting, etc.\n\nGenerally not required for use but may be necessary or usefull at times for specific applications.\n\nCheckout the following documentation for more information:\n- https://truecharts.org/common/addons/\n- https://truecharts.org/scale/guides/vpn-setup/\n"
                 },
                 {
                     "name": "Experimental",
@@ -4949,13 +4949,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/homepage/6.3.20",
-        "last_update": "2024-04-22 22:00:36",
+        "last_update": "2024-04-27 01:14:04",
         "required_features": [
-            "definitions/interface",
-            "definitions/gpuConfiguration",
             "definitions/certificate",
+            "definitions/timezone",
             "normalize/interfaceConfiguration",
-            "definitions/timezone"
+            "definitions/interface",
+            "definitions/gpuConfiguration"
         ],
         "human_version": "0.8.7_6.3.20",
         "version": "6.3.20",
